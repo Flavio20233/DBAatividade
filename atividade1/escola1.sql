@@ -128,5 +128,6 @@ ALTER TABLE inscrito ADD CONSTRAINT FK_inscrito_2
     REFERENCES turma (cod_disciplina)
     ON DELETE SET NULL;
     
-    
+    update turma set sala =204 where cod_disciplina=1;    
+    update turma set sala =205 where cod_disciplina=2;    
     
